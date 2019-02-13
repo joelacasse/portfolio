@@ -3,10 +3,16 @@ html{
 }
 body{
   margin: 0;
+  opacity: 1;
+  transition: 1s opacity;
+}
+body.fade{
+  opacity: 0;
+  transition: none;
 }
 header{
   height: 100vh;
-  background-image: url(img/mtn.jpg);
+  background-image: url(img/mtn-min.jpg);
   background-blend-mode: screen;
   background-color: rgba(104,5,5,0.6);
   background-size: cover;
@@ -187,10 +193,11 @@ header{
   80%{transform:translateY(0px);}
 }
 #div2{
+  background-image: url(img/topography.svg);
   background-color: rgba(104,5,5,0.8);
+  background-blend-mode: lighten;
   margin: -8px;
   border-top: 5px solid #680505;
-  border-bottom: 5px solid #680505;
 }
 #div2 .section-title{
   color: white;
@@ -217,18 +224,23 @@ header{
 #div3{
   height:8vw;
   margin: 0 -8px 0 -8px;
-  background: rgba(3,62,62,0.2);
+  background: rgba(3,62,62,0.6);
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
 }
 #div3 h2{
   color: white;
+  padding: 0 auto;
+  display: grid;
+  align-items: center;
+  font-size: 2vw;
+  grid-template-columns: 1fr 1fr;
 }
 #div3 h2 i{
-  font-size: 2vw;
-  margin-left: 15px;
+  font-size: 3vw;
+  margin-left: 30px;
   animation: point 1.2s ease infinite;
 }
 @keyframes point{
@@ -254,6 +266,9 @@ header{
     font-size:calc(18px + .7vw);
     height: 15vw;
   }
+  #div3 i{
+    font-size: 6vw;
+  }
 }
 @media (max-width: 430px){
   .work-image{
@@ -268,5 +283,8 @@ header{
   }
   #landing-blurb{
     font-size: 6vw;
+  }
+  #div3 h2{
+    font-size: 4vw;
   }
 }
