@@ -12,7 +12,7 @@ body.fade{
 }
 header{
   height: 100vh;
-  background-image: url(img/mtn-min.jpg);
+  background-image: url(img/mtn-crop2.jpg);
   background-blend-mode: screen;
   background-color: rgba(104,5,5,0.6);
   background-size: cover;
