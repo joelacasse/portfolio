@@ -232,7 +232,7 @@ header {
   border-left: 10px solid white;
   transform: scale(1.1);
 }
-.work-link-test{
+.project-card{
   position: relative;
   border-left: 10px solid #033e3e;
   border-radius: 5px;
@@ -241,11 +241,14 @@ header {
   margin: 10px;
   transition: all 0.7s ease;
 }
-.work-link-test:hover {
+.project-card:hover {
   border-left: 10px solid white;
   transform: scale(1.1);
 }
-#desc-test{
+.project-card img{
+  border-radius: 0px 5px 5px 0px;
+}
+.project-description{
   position: absolute;
   bottom: 2%;
   left: 2%;
@@ -256,7 +259,7 @@ header {
   background-color: rgba(3,62,62,0.9);
   border-radius: 3px;
 }
-#desc-test h3,p{
+.project-description h3,p{
   margin: 3px;
 }
 #div3 {
