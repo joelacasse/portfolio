@@ -232,7 +232,7 @@ header {
   border-left: 10px solid white;
   transform: scale(1.1);
 }
-.project-card{
+.project-card {
   position: relative;
   border-left: 10px solid #033e3e;
   border-radius: 5px;
@@ -245,21 +245,22 @@ header {
   border-left: 10px solid white;
   transform: scale(1.1);
 }
-.project-card img{
+.project-card img {
   border-radius: 0px 5px 5px 0px;
 }
-.project-description{
+.project-description {
   position: absolute;
   bottom: 2%;
   left: 2%;
-  right: 2%;  
+  right: 2%;
   font-family: Montserrat, sans-serif;
   color: white;
   padding: 10px;
-  background-color: rgba(3,62,62,0.95);
+  background-color: rgba(3, 62, 62, 0.95);
   border-radius: 3px;
 }
-.project-description h3,p{
+.project-description h3,
+p {
   margin: 3px;
 }
 #div3 {
